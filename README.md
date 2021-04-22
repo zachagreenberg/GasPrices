@@ -14,7 +14,8 @@ Gas prices directly affect drivers everywhere. The rise of gas prices will finan
 # Data
 Our data was taken from a combination of resources including the EIA Open Data API, Federal Reserve Economic Data, and Matteo Iacovello's Geopolitical Risk Index dataset. We have compiled our dataset from these resources, searching for the history of gas prices over time as well as other factors that are thought to influence the prices themselves. Here is a compiled list of the variables:
 
-**Target**: RETAIL_GAS_PRICE - All Grades of Gasoline, U.S. City Average Retail Price, Monthly (Dollars per Gallon with Taxes)  
+**Target**: RETAIL_GAS_PRICE - All Grades of Gasoline, U.S. City Average Retail Price, Monthly (Dollars per Gallon with Taxes  
+
 REGULAR_GAS_PRICE - U.S. Regular All Formulations Retail Gasoline Prices, Monthly (Dollars per Gallon)  
 PREMIUM_GAS_PRICE - U.S. Premium All Formulations Retail Gasoline Prices, Monthly (Dollars per Gallon)  
 EUROPE_BRENT - Europe Brent Spot Price FOB, Monthly (Dollars per Barrel)  
@@ -26,4 +27,19 @@ IMPORTS - Petroleum Imports, Annually (Millions of Barrels Per Day)
 FEDERAL_GAS_TAX - Excise Taxes on Gasoline, Annually (Billions of Dollars)  
 STATE_GAS_TAX - State Government Sales Tax on Gasoline, Annually (Billions of Dollars)  
 INFLATION - Inflation in Consumer Prices, Annually (Percent)  
-GPR_MEXICO:GPR:COLOMBIA - Geopolitical Risk Index, Monthly, (Scale 0 to 600)
+GPR_MEXICO:GPR:COLOMBIA - Geopolitical Risk Index, Monthly, (Scale 0 to 600)  
+
+# EDA
+We started by taking a look at the distribution of the target variable:
+
+<p align="center"><img src="https://github.com/zachagreenberg/OilPrices/blob/main/Images/Target.png" width="400" height="250" /></p>
+
+Through research we were able to determine the causes of some of the dips in the prices. These events include the recession of 2008, as well as the fall of gas prices due to Saudi Arabia's overproduction of oil in 2014.
+
+Additionally we examined the exogenous variables as we imagined they would help us to understand the trends in gas prices and allow us to formulate predictions:
+
+<p align="center"><img src="https://github.com/zachagreenberg/OilPrices/blob/main/Images/Benchmark.png" width="400" height="250" /></p>
+
+We saw that the benchmark prices of Europe Brent and West Texas Intermediate Crude Oil follow tightly with the average US gas prices.
+
+
