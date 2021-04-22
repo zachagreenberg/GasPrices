@@ -56,7 +56,7 @@ Here we can see that our Facebook Prophet model had the lowest RMSE, so this is 
 # Predictions
 
 <p align="left"><img src="Images/FinalPreds.png" width="500" height="250" />
- <img src="Images/PredictionChart.png" width="160px" height="200px" /></p>
+ <img src="Images/PredictionChart.png" width="160px" height="250px" /></p>
  
 We then create and deploy our final model to predict 2021 gas prices nationally. We can see that December has the lowest average price point, and the highest is June. 
 
