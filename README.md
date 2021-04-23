@@ -62,3 +62,11 @@ We then create and deploy our final model to predict 2021 gas prices nationally.
 
 # Next steps
 To expand our project, we next want to create a Facebook Prophet model that includes our exogenous data. We believe that including this extra information, it will allow for an even lower RMSE. Secondly, we would like to create a more inferential model on our data which would allow us to obtain a better understanding as to why they influence retail gas price the way they do. Finally, we would like to collect data on a smaller scale, like statewide or regional. This will allow for more accurate prices for those areas.
+
+----------------------------------------------
+# Repository Structure
+├── Data  
+├── Images  
+├── Project_Notebook.ipynb  
+├── Gas Presentation.pdf  
+└── README.md  
