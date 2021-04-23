@@ -65,8 +65,11 @@ To expand our project, we next want to create a Facebook Prophet model that incl
 
 ----------------------------------------------
 # Repository Structure
-├── Data  
-├── Images  
-├── Project_Notebook.ipynb  
+├── Data    
+├── Images    
+├── __ pycache __    
+├── .DS_Store    
+├── .gitignore      
 ├── Gas Presentation.pdf  
-└── README.md  
+├── Project_Notebook.ipynb      
+└── README.md    
