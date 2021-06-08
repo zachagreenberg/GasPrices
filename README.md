@@ -23,10 +23,8 @@ WTI - Cushing, OK WTI Spot Price FOB, Monthly (Dollars per Barrel)
 OIL_SUPPLY - U.S. Supply Adjustment of Crude Oil and Petroleum Products, Monthly (Thousands Barrels)  
 CRUDE_OIL_PRODUCTION - Crude Oil Production, 48 States, Monthly (Thousands Barrels per Day)  
 EMPLOYEES_OIL_EXTRACTION - Employees in US Oil, Monthly (Thousands of Persons)  
-IMPORTS - Petroleum Imports, Annually (Millions of Barrels Per Day)  
-FEDERAL_GAS_TAX - Excise Taxes on Gasoline, Annually (Billions of Dollars)  
-STATE_GAS_TAX - State Government Sales Tax on Gasoline, Annually (Billions of Dollars)  
-INFLATION - Inflation in Consumer Prices, Annually (Percent)  
+IMPORTS - Petroleum Imports, Annually (Millions of Barrels Per Day)     
+INFLATION - Inflation in Consumer Prices, Annually (Percent)    
 GPR_MEXICO:GPR:COLOMBIA - Geopolitical Risk Index, Monthly, (Scale 0 to 600)  
 
 __IMPORTANT NOTE:__
@@ -65,11 +63,9 @@ To expand our project, we next want to create a Facebook Prophet model that incl
 
 ----------------------------------------------
 # Repository Structure
-├── Data    
-├── Images    
-├── __ pycache __    
-├── .DS_Store    
-├── .gitignore      
-├── Gas Presentation.pdf  
-├── Project_Notebook.ipynb      
-└── README.md    
+|_ Data  
+|_ Images  
+|_ .gitignore  
+|_ EDA-Modeling-Eval.ipynb    
+|_ Gas_Prices_Presentation.ipynb  
+|_ README.md
