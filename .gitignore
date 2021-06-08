@@ -1,2 +1,62 @@
+(learn-env) MacBook-Pro:OilPrices zachgreenberg$ cd ..
+(learn-env) MacBook-Pro:Projects zachgreenberg$ Wine_Recommendations/
+-bash: Wine_Recommendations/: is a directory
+(learn-env) MacBook-Pro:Projects zachgreenberg$ cd Wine_Recommendations/
+(learn-env) MacBook-Pro:Wine_Recommendations zachgreenberg$ jupyter notebook
+[I 12:08:26.478 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.4.1
+[I 12:08:26.478 NotebookApp] Serving notebooks from local directory: /Users/zachgreenberg/Documents/Flatiron/Projects/Wine_Recommendations
+[I 12:08:26.478 NotebookApp] Jupyter Notebook 6.1.4 is running at:
+[I 12:08:26.478 NotebookApp] http://localhost:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+[I 12:08:26.478 NotebookApp]  or http://127.0.0.1:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+[I 12:08:26.478 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:08:26.488 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/zachgreenberg/Library/Jupyter/runtime/nbserver-16303-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+     or http://127.0.0.1:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+^C[I 12:08:36.312 NotebookApp] interrupted
+Serving notebooks from local directory: /Users/zachgreenberg/Documents/Flatiron/Projects/Wine_Recommendations
+0 active kernels
+Jupyter Notebook 6.1.4 is running at:
+http://localhost:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+ or http://127.0.0.1:8888/?token=39e3f12688efd7c430ea5d726a2f3a409d126f548327d92d
+Shutdown this notebook server (y/[n])? y
+[C 12:08:37.134 NotebookApp] Shutdown confirmed
+[I 12:08:37.136 NotebookApp] Shutting down 0 kernels
+[I 12:08:37.136 NotebookApp] Shutting down 0 terminals
+(learn-env) MacBook-Pro:Wine_Recommendations zachgreenberg$ ls
+Data				README.md
+EDA-Modeling-Eval.ipynb		Streamlit
+Images				Wine_Rec_Presentation.pdf
+Project_w_Topic.ipynb
+(learn-env) MacBook-Pro:Wine_Recommendations zachgreenberg$ vim .gitignore
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+
 .ipynb_checkpoints
 api_key.py
