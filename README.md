@@ -12,7 +12,7 @@ Gas Prices have a history of change over time. This project aims to be one step 
 Gas prices directly affect drivers everywhere. The rise of gas prices will financially impact their decisions and budgetary allowances, possibly restricting travel opportunities. With the ability to estimate future pricing, this could give individuals as well as transportation companies information so that they can plan ahead and account for any rise or decline.
 
 # Data
-Our data was taken from a combination of resources including the EIA Open Data API, Federal Reserve Economic Data, and Matteo Iacovello's Geopolitical Risk Index dataset. We have compiled our dataset from these resources, searching for the history of gas prices over time as well as other factors that are thought to influence the prices themselves. Here is a compiled list of the variables:
+Our data was taken from a combination of resources including the EIA Open Data API, Federal Reserve Economic Data, and Matteo Iacovello's Geopolitical Risk Index dataset. We have compiled our database from these resources, searching for the history of gas prices over time as well as other factors that are thought to influence the prices themselves. After combining the two tables created into a combined final dataset, here is a compiled list of the variables:
 
 **Target**: RETAIL_GAS_PRICE - All Grades of Gasoline, U.S. City Average Retail Price, Monthly (Dollars per Gallon with Taxes  
 
